@@ -73,6 +73,8 @@ const Menu = ({ title, recipes }) => (
   </article>
 );
 
+console.log(<Menu recipes={data} title="Delicious Recipes" />);
+
 ReactDOM.render(
   <Menu recipes={data} title="Delicious Recipes" />,
   document.getElementById("react-container")
